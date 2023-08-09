@@ -10,7 +10,7 @@ const Topic = ({ topic }) => {
         <h2 className="card-title font-bold text-gray-600">{ name }</h2>
         <div className="card-actions justify-end">
           <button className="bg-orange-400 px-2 py-2 text-white rounded-sm">
-            <Link to='/blog'>Start Practice</Link>
+            <Link to= { `/quiz/${ id }` }>Start Practice</Link>
           </button>
     </div>
   </div>
