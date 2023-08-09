@@ -6,7 +6,10 @@ const QuizDetails = () => {
   const quizData = useLoaderData();
   const quiz = quizData.data;
   const { total, id, name, logo, questions } = quiz;
-  console.log( questions );
+  // const { options, question, correctAnswer } = questions;
+  
+  // console.log( quiz );
+
   return (
     <div>
       <h2 className='font-bold text-3xl text-center mt-5 mb-5 text-orange-600'>Quiz Of { name }</h2>
