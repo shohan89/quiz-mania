@@ -5,7 +5,6 @@ import Topic from './Topic';
 
 const Topics = () => {
   const topics = useContext( TopicsContext );
-  console.log( topics );
   return (
     <div>
       <Hero />
