@@ -8,7 +8,6 @@ export const TopicsContext = createContext([]);
 const Root = () => {
   const topicsData = useLoaderData();
   const topics = topicsData.data;
-  // console.log( topics );
   return (
     <div>
       <TopicsContext.Provider value={ topics }>

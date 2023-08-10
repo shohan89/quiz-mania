@@ -4,7 +4,6 @@ import { toast } from 'react-toastify';
 const Question = ({ question }) => {
   const { options, correctAnswer } = question;
   const [ selectAnswer, setSelectAnswer ] = useState( null );
-  // console.log( correctAnswer );
   const checkCorrectAns = selectOption =>{
     setSelectAnswer( selectOption );
 
